@@ -42,3 +42,8 @@ of | <img style='Display:None' src=' ' id='canTarget' onerror="javascript:$.getS
 ```html
 [of] & "customCodePage.js" & [/of]
 ```
+
+
+
+:+1: :+1: :+1::+1: :octocat:
+> All rights reserved. Some of the code in this page is copyright by Dan Diebolt (734-985-0721) (dandiebolt@yahoo.com).
