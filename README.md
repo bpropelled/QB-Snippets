@@ -29,7 +29,8 @@ $.when(promisec).then(function(){
 });
 ```
 
-## The ON Failure Technique -> coined by Nathan Thompson of WEG
+## The ON Failure Technique 
+##### -> coined by Nathan Thompson of WEG
 This technique is similar to the image on load technique 
 
 ### Step 1 - Create the User Defined Variables
