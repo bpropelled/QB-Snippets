@@ -28,3 +28,17 @@ $.when(promisec).then(function(){
   alert("parent and child records deleted");
 });
 ```
+
+## The ON Failure Technique -> coined by Nathan Thompson of WEG
+This technique is similar to the image on load technique 
+
+### Step 1 - Create the User Defined Variables
+Name | Value
+---- | -----
+of | <img style='Display:None' src=' ' id='canTarget' onerror="javascript:$.getScript(gReqAppDBID+'?a=dbpage&pagename=
+/of | ');">
+
+### Step 2 - Use - create a custom code page and add it like this
+```html
+[of] & "customCodePage.js" & [/of]
+```
