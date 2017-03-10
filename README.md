@@ -125,6 +125,31 @@ of | <img style='Display:None' src=' ' id='canTarget' onerror="javascript:$.getS
 ```
 
 
+## Here is an exmaple of using the Fetch API (chrome users only, currently not supporte in Safari, IE)
+```javascript
+fetch('./api/some.json')  
+  .then(  
+    function(response) {  
+      if (response.status !== 200) {  
+        console.log('Looks like there was a problem. Status Code: ' +  
+          response.status);  
+        return;  
+      }
+
+      // Examine the text in the response  
+      response.json().then(function(data) {  
+        console.log(data);  
+      });  
+    }  
+  )  
+  .catch(function(err) {  
+    console.log('Fetch Error :-S', err);  
+  });
+```
+
+
+
+
 #### The ultimate resource of QB snippets from the Dan - Contact and recognition below
 [Pasties](https://haversineconsulting.quickbase.com/db/bgcwm2m4g?a=td)
 
