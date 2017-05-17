@@ -148,6 +148,11 @@ fetch('./api/some.json')
 ```
 
 
+## Quick Way to Call Script using a formula text field
+```html
+"<img src=\"/i/spacer.gif\" onload=\"$.getScript('?a=dbpage&pageName=script.js');\">"
+```
+
 
 
 #### The ultimate resource of QB snippets from the Dan - Contact and recognition below
