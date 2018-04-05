@@ -8,6 +8,13 @@ This article is going to cover the basic functionality of the wrapper and how to
 
 Firstly, get the latest version of the PHP wrapper from [GitHub](https://github.com/QuickbaseAdmirer/QuickBase-PHP-SDK).
 
+## Getting an error related to CORS and Allowing the Origin
+I started getting this error from the api saying the allow origing wasn't in the header, here is the fix
+```php
+header('Access-Control-Allow-Origin: https://realmname.quickbase.com');
+//or wildcard the header
+header('Access-Control-Allow-Origin: *');
+```
 ## Creating the Quickbase Object
 
 ```php  
